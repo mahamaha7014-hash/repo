@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Examples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .gallery img {
+            width: 30%;
+            margin-right: 1.5%;
+        }
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .recipe img {
+            width: 100px;
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Gallery Page with 3 Optimized Images -->
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300x200?text=Image+1" alt="Image 1">
+        <img src="https://via.placeholder.com/300x200?text=Image+2" alt="Image 2">
+        <img src="https://via.placeholder.com/300x200?text=Image+3" alt="Image 3">
+    </div>
+
+    <!-- Recipe Card using Lists + Images -->
+    <h2>Recipe Card: Chocolate Cake</h2>
+    <div class="recipe">
+        <img src="https://via.placeholder.com/100x100?text=Cake" alt="Chocolate Cake">
+        <h3>Ingredients:</h3>
+        <ul>
+            <li>2 cups flour</li>
+            <li>1 cup sugar</li>
+            <li>1 cup cocoa powder</li>
+            <li>2 eggs</li>
+        </ul>
+        <h3>Steps:</h3>
+        <ol>
+            <li>Preheat the oven to 180°C.</li>
+            <li>Mix dry ingredients together.</li>
+            <li>Add eggs and mix until smooth.</li>
+            <li>Pour batter into a pan and bake for 35 minutes.</li>
+        </ol>
+    </div>
+
+    <!-- School Timetable using Rowspan & Colspan -->
+    <h2>School Timetable</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>thursday</th>
+            <th>friday</th>
+        </tr>
+        <tr>
+            <td>9:00-10:00</td>
+            <td rowspan="2">Math</td>
+            <td>english</td>
+            <td>Science</td>
+            <td>tamil</td>
+            <td>p.t</td>
+        </tr>
+        <tr>
+            <td>10:00-11:00</td>
+            <td>History</td>
+            <td>Science</td>
+            <td>English</td>
+            <td rowspan="2">Computer</td>
+        </tr>
+        <tr>
+            <td>11:00-12:00</td>
+            <td>english</td>
+            <td>maths</td>
+            <td>tamil</td>
+            <td>p.t</td>
+            <tr>
+            <td>9:00-10:00</td>
+            <td rowspan="2">Math</td>
+            <td>english</td>
+            <td>Science</td>
+            <td>tamil</td>
+            <td>p.t</td>
+             <tr>
+            <td>10:00-11:00</td>
+            <td>History</td>
+            <td>Science</td>
+            <td>English</td>
+            <td rowspan="2">Computer</td>
+        </tr>
+        </tr>
+            
+        </tr>
+    </table>
+
+    <!-- Product Price Table with Headers -->
+    <h2>Product Prices</h2>
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Category</th>
+            <th>Price ($)</th>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>Electronics</td>
+            <td>79,000</td>
+        </tr>
+        <tr>
+            <td>Smartphone</td>
+            <td>Electronics</td>
+            <td>20,000</td>
+        </tr>
+        <tr>
+            <td>Chair</td>
+            <td>Furniture</td>
+            <td>150</td>
+        </tr>
+    </table>
+
+    <!-- Mini Portfolio using Lists, Images, and a Table -->
+    <h2>Mini Portfolio</h2>
+    <ul>
+        <li><strong>Name:</strong> Mahalakshmi.M</li>
+        <li><strong>qualificaion:</strong>B.sc.,computer science</li>
+        <li><strong>Profession:</strong> Student</li>
+        <li><strong>skills:</strong> html,class</li>
+        <li><strong>Hobbies:</strong>
+            <ul>
+                <li>Singing</li>
+                <li>Reading</li>
+                <li>learning</li>
+            </ul>
+        </li>
+        <li><strong>Projects:</strong>
+            <table>
+                <tr>
+                    <th>Project</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Website Development</td>
+                    <td>Created a personal portfolio website</td>
+                    <td>Completed</td>
+                </tr>
+                <tr>
+                    <td>Community Service App</td>
+                    <td>Developed an app for local volunteering</td>
+                    <td>Ongoing</td>
+                </tr>
+            </table>
+        </li>
+    </ul>
+    <img src="https://via.placeholder.com/150x150?text=Profile+Image" alt="Maha Profile">
+
+</body>
+</html>
