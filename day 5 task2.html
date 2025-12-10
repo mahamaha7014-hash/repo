@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Forms Examples</title>
+</head>
+<body>
+
+    <h1>HTML Forms Practice</h1>
+
+    <!-- 1. Contact Form -->
+    <h2>Contact Form</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+
+    <hr>
+
+    <!-- 2. Signup Form -->
+    <h2>Signup Form</h2>
+    <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+
+        <input type="submit" value="Sign Up">
+    </form>
+
+    <hr>
+
+    <!-- 3. Feedback Form -->
+    <h2>Feedback Form</h2>
+    <form>
+        <p>Rate our service:</p>
+        <input type="radio" name="rating" value="excellent"> Excellent<br>
+        <input type="radio" name="rating" value="good"> Good<br>
+        <input type="radio" name="rating" value="average"> Average<br><br>
+
+        <p>What did you like?</p>
+        <input type="checkbox" name="like" value="design"> Design<br>
+        <input type="checkbox" name="like" value="content"> Content<br>
+        <input type="checkbox" name="like" value="speed"> Speed<br><br>
+
+        <input type="submit" value="Submit Feedback">
+    </form>
+
+    <hr>
+
+    <!-- 4. Select City Form -->
+    <h2>Select Your City</h2>
+    <form>
+        <label for="city">City:</label><br>
+        <select id="city" name="city">
+            <option value="chennai">Chennai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="delhi">Delhi</option>
+        </select><br><br>
+
+        <input type="submit" value="Select">
+    </form>
+
+    <hr>
+
+    <!-- 5. Mini Profile Form -->
+    <h2>Mini Profile Form</h2>
+    <form>
+        <fieldset>
+            <legend>Profile Details</legend>
+
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <label for="email2">Email:</label><br>
+            <input type="email" id="email2" name="email2"><br><br>
+
+            <label for="bio">Bio:</label><br>
+            <textarea id="bio" name="bio"></textarea><br><br>
+
+            <input type="submit" value="Save Profile">
+        </fieldset>
+    </form>
+
+</body>
+</html>
+
+

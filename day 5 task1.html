@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+
+    <h2>Sample Form</h2>
+
+    <form>
+
+        <!-- Text input with label -->
+        <label for="username">Name:</label><br>
+        <input type="text" id="username" name="username">
+        <br><br>
+
+        <!-- Email input with required -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Dropdown with 3 countries -->
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">north korea</option>
+            <option value="uk">south korea</option>
+        </select>
+        <br><br>
+
+        <!-- Textarea with placeholder -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Enter your message here"></textarea>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
